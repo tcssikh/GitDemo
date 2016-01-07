@@ -6,9 +6,10 @@ public class Demo {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("sum of 1 and 5 is: " + add(1,5));
+		int a = 5, b = 6;
+		System.out.println("sum of a and b is: " + add(a, b));
 	}
-	
+
 	public static int add(int a, int b) {
 		return a + b;
 	}
